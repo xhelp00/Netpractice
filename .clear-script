@@ -1,0 +1,4 @@
+CTRL SHIFT J (in browser)
+
+document.querySelectorAll('input[type="text"]:not([disabled])')
+  .forEach(input => {input.value = ""});
